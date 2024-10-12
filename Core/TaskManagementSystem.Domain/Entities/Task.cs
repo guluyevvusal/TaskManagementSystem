@@ -14,5 +14,9 @@ namespace TaskManagementSystem.Domain.Entities
         public bool IsCompleted { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? CompletedAt { get; set; }
+
+        // UserId sahəsi əlavə olunur
+        public int UserId { get; set; } // Hər tapşırığın bir istifadəçiyə aid olduğunu göstərir
+        public User User { get; set; } // User ilə olan əlaqə
     }
 }
