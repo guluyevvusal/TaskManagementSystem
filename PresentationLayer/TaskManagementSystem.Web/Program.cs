@@ -4,7 +4,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using TaskManagementSystem.Application.Interfaces;
 using TaskManagementSystem.Application.Services;
-using TaskManagementSystem.Infrastructure;
 using TaskManagementSystem.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
